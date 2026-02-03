@@ -8,5 +8,9 @@ body {
     width: 486px;
     height: 160px;
     background-color: #F48C06;
-    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

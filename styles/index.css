@@ -1,5 +1,12 @@
+body {
+    background-color: #370617;
+}
+
+
+
 .container {
     width: 486px;
     height: 160px;
     background-color: #F48C06;
+    flex-direction: column;
 }

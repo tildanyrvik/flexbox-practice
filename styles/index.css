@@ -15,10 +15,12 @@ body {
     width: 468px;
     height: 160px;
     margin: 20px;
+    padding: 20px;
     background-color: #F48C06;
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
+    align-items: flex-end;
     position: relative;
     gap: 20px;
 }
@@ -27,10 +29,13 @@ body {
     width: 468px;
     height: 160px;
     margin: 20px;
+    padding: 20px;
     background-color: #F48C06;
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
     gap: 20px;
 }
@@ -43,6 +48,8 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     gap: 20px;
 }
@@ -88,9 +95,30 @@ body {
     height: 78px;
     background-color: #9D0208;
     position: relative;
-    border: black;
+    border-color: black;
+    border-width: 1px;
     border-style:solid;
     border-radius: 5px;
-    align-items: flex-end;
     
+}
+
+.red-box__square2{
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+.red-box__card3{
+    width: 78px;
+    height: 120px;
+    background-color: #9D0208;
+    border-radius: 5px;
+    color: #FFFFFF;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
 }

@@ -48,9 +48,10 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
+
     gap: 20px;
 }
 
@@ -62,6 +63,8 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     gap: 20px;
 }
@@ -117,8 +120,36 @@ body {
     background-color: #9D0208;
     border-radius: 5px;
     color: #FFFFFF;
-     display: flex;
+    font-size: 12px;
+    display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
+.red-box__rectangle3{
+    background-color: #9D0208;
+    width: 78px;
+    height: 64px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-box__card4{
+    background-color: #9D0208;
+    width: 78px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.red-box__square5{
+    background-color: #9D0208;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+

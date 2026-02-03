@@ -2,15 +2,20 @@ body {
     background-color: #370617;
 }
 
-
-
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+
+ .orange-box {
     width: 486px;
     height: 160px;
     background-color: #F48C06;
-    display: flex;
+    border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }

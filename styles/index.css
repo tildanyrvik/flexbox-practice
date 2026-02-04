@@ -5,8 +5,9 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: flex-end;
     gap: 20px;
     max-width: 1100px;
 }
@@ -36,6 +37,7 @@ body {
     align-items: center;
     position: relative;
     gap: 20px;
+    order: 4;
 }
 
 .orange-box3 {
@@ -66,27 +68,17 @@ body {
 
 .orange-box5 {
     width: 468px;
-    height: 180px;
+    height: 160px;
+    padding: 20px;
     background-color: #F48C06;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px;
+    gap: 97px;
     display: flex;
     position: relative;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    flex-direction: row;
+    justify-content: space-between
 
-.top-row{
-    display: flex;
-    gap: 20px;
-    justify-content: flex-start;
-
-}
-
-.bottom-row{
-    display: flex;
-    justify-content: flex-end;
 }
 
 .orange-box6 {
@@ -98,6 +90,8 @@ body {
     display: flex;
     position: relative;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-box__square1{
@@ -156,6 +150,31 @@ body {
 .red-box__square5{
     background-color: #9D0208;
     width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.red-box__square5-corner {
+    background-color: #9D0208;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-left: auto;
+    
+}
+
+
+.red-box__square6{
+    background-color: #9D0208;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.red-box__largerectangle6 {
+    background-color: #9D0208;
+    width: 156px;
     height: 78px;
     border-radius: 5px;
 }
